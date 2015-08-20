@@ -16,5 +16,5 @@ Gem::Specification.new do |gem|
   gem.version       = Middleman::Cucumber::VERSION
 
   gem.add_dependency "middleman-more"
-  gem.add_dependency "cucumber", "~> 1.2.1"
+  gem.add_dependency "cucumber", "~> 2.0.2"
 end
