@@ -1,6 +1,3 @@
-# -*- encoding: utf-8 -*-
-require File.expand_path('../lib/middleman-cucumber/version', __FILE__)
-
 Gem::Specification.new do |gem|
   gem.authors       = ["Joe Fiorini"]
   gem.email         = ["joe@d-i.co"]
@@ -11,9 +8,9 @@ Gem::Specification.new do |gem|
   gem.files         = `git ls-files`.split($\)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
-  gem.name          = "middleman-cucumber"
-  gem.require_paths = ["lib"]
-  gem.version       = Middleman::Cucumber::VERSION
+  gem.name          = 'middleman-cucumber'
+  gem.require_paths = ['lib']
+  gem.version       = '1.0.0'
 
   gem.add_dependency "middleman-more"
   gem.add_dependency "cucumber", "~> 2.0.2"

@@ -1,6 +1,6 @@
 require 'bundler/setup'
 require 'middleman'
-require "#{File.dirname(__FILE__)}/middleman-cucumber/test_env"
+require_relative '../middleman-cucumber/test_env'
 
 module Middleman
   module Cucumber
@@ -17,7 +17,6 @@ module Middleman
     def self.rack_app(opts={})
       @app.class.to_rack_app
     end
-
   end
 end
 
