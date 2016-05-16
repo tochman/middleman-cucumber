@@ -13,5 +13,5 @@ Gem::Specification.new do |gem|
   gem.version       = '1.0.0'
 
   gem.add_dependency "middleman-more"
-  gem.add_dependency "cucumber", "~> 2.0.2"
+  gem.add_dependency "cucumber", "~> 2.3"
 end
